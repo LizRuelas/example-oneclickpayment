@@ -10,7 +10,7 @@ $('#crearCustomer').on('click', function (e) {
 
   $.ajax({
          type: 'POST',
-         url: 'http://localhost:8083/cargo_recurrente/culqi-php-develop/examples/06-create-customer.php',
+         url: 'http://localhost/culqi-php-develop/examples/06-create-customer.php',
          data: { address , address_c , country , email , f_name , l_name , phone},
          datatype: 'json',
          success: function(data) {

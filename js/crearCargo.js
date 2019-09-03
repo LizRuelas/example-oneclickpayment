@@ -4,7 +4,7 @@ $('.crearCargo').on('click', function (e) {
 
   $.ajax({
          type: 'POST',
-         url: 'http://localhost:8083/cargo_recurrente/culqi-php-develop/examples/02-create-charge.php',
+         url: 'http://localhost/culqi-php-develop/examples/02-create-charge.php',
          data: { idCard , email},
          datatype: 'json',
          success: function(data) {

@@ -95,6 +95,11 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://checkout.culqi.com/js/v3"></script>
+
+    <script>
+      Culqi.publicKey = '<?php echo($_ENV["PUBLIC_API_KEY"]); ?>';
+    </script>
+    
     <script type="text/javascript" src="js/crearCustomer.js" ></script>
     <script type="text/javascript" src="js/crearCard.js" ></script>
     <script type="text/javascript" src="js/crearCargo.js" ></script>
