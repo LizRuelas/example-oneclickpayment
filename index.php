@@ -97,7 +97,7 @@
     <script src="https://checkout.culqi.com/js/v3"></script>
 
     <script>
-      Culqi.publicKey = '<?php echo($_ENV["PUBLIC_KEY"]); ?>';
+      Culqi.publicKey = '<?php echo($_ENV["PUBLIC_API_KEY"]); ?>';
     </script>
     
     <script type="text/javascript" src="js/crearCustomer.js" ></script>
