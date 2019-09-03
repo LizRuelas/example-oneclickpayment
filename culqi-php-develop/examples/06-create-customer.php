@@ -10,7 +10,7 @@ require '../lib/culqi.php';
 
 use Culqi\Culqi;
 
-$SECRET_API_KEY = "sk_test_jb4bNxYst1HBvgy1";
+$SECRET_API_KEY = $_ENV['API_KEY'];
 $culqi = new Culqi(array('api_key' => $SECRET_API_KEY));
 
 try {

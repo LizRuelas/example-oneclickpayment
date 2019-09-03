@@ -1,5 +1,5 @@
 $("#response-panel2").hide();
-Culqi.publicKey = 'pk_test_Rp2uV5dXI3quFq2X';
+
 // Culqi.container = "check";
 Culqi.options({
   style: {
@@ -24,7 +24,7 @@ function culqi() {
     var idCustomer = $('#idCustomer').val()
     $.ajax({
          type: 'POST',
-         url: 'http://localhost:8083/cargo_recurrente/culqi-php-develop/examples/07-create-card.php',
+         url: 'http://localhost/culqi-php-develop/examples/07-create-card.php',
          data: { token: Culqi.token.id  , idCustomer},
          datatype: 'json',
          success: function(data) {

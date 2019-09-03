@@ -9,7 +9,7 @@ try {
   require '../vendor/autoload.php';
 
   // Configurar tu API Key y autenticación
-  $SECRET_API_KEY = "{llave}";
+  $SECRET_API_KEY = $_ENV['API_KEY'];
   $culqi = new Culqi\Culqi(array('api_key' => $SECRET_API_KEY));
 
   // Creando Cargo a una tarjeta

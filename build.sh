@@ -1,0 +1,1 @@
+docker build -t culqi-prueba-php .

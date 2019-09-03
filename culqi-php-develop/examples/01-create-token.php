@@ -11,7 +11,7 @@ try {
   require '../lib/culqi.php';
 
   // Codigo de Comercio
-  $COD_COMERCIO = "";
+  $COD_COMERCIO = $_ENV['API_KEY'];
   $culqi = new Culqi\Culqi(array('api_key' => $COD_COMERCIO));
 
   // Creando Cargo a una tarjeta
